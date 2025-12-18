@@ -1,13 +1,5 @@
 import ClickCounter from './components/ClickCounter'
 
-import './App.css'
-
-const App = () => {
-  return (
-    <div>
-      <ClickCounter />
-    </div>
-  )
-}
+const App = () => <ClickCounter />
 
 export default App
